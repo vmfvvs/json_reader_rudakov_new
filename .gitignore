@@ -4,13 +4,13 @@ build.sbt_back
 
 # sbt specific
 dist/*
-target/
+#target/
 lib_managed/
 src_managed/
-project/boot/
+#project/boot/
 project/plugins/project/
-sbt/*.jar
-mini-complete-example/sbt/*.jar
+#sbt/*.jar
+#mini-complete-example/sbt/*.jar
 
 # Scala-IDE specific
 .scala_dependencies
@@ -63,7 +63,7 @@ coverage.xml
 
 # Mr Developer
 .mr.developer.cfg
-.project
+#.project
 .pydevproject
 
 # Rope
